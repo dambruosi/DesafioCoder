@@ -1,0 +1,37 @@
+footer {
+  background-color: $Violet;
+  height: 35%;
+  position: sticky;
+  color: $letraWhite;
+
+  img {
+    width: 150px;
+  }
+
+  ul li {
+    list-style: none;
+    border-radius: 10px;
+    font-family: $fontMain;
+
+  }
+
+  li:hover {
+    color: cyan;
+  }
+}
+
+
+
+.footer__icono--tamaño {
+  font-size: 3rem;
+  display: inline;
+  margin: 1rem;
+}
+@media (max-width: 450px) {
+        
+  .footer__icono--tamaño {
+      font-size: 2rem;
+      display:flex;
+    }
+  }
+

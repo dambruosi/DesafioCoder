@@ -1,0 +1,62 @@
+//variables de colores//
+
+$mainColor:darkmagenta;
+
+$fondoPro: #FA8BFF;
+
+$Violet:#b881ec;
+
+$letraWhite: white;
+
+//imagen de portada//
+
+$portadaFondo: #b881ec;
+
+
+//botones//
+
+.btn{
+
+    font-family: "Otomanopee One", sans-serif;
+    color:$letraWhite;
+    background-color:$Violet;
+
+
+&:hover{
+    background-color: white;
+    color: $Violet;
+}
+
+}
+
+//fondo Contacto//
+
+
+.fondo {
+    background-color: #fa8bff;
+    background-image: linear-gradient(45deg, #fa8bff 0%, #2bd2ff 26%,#ffffff 43%, #af87d6 66% );
+    }
+
+
+//TRANSFORMACIONES//
+
+@keyframes movimiento-lateral{
+    from { 
+    left:0 px;
+    }
+    to{
+    left:50px;
+    }
+    }
+
+    .iconosAni:hover{
+    animation-name: movimiento-lateral;
+    animation :1s;
+    animation-iteration-count:2;
+    animation-direction: alternate;
+    position: relative;
+    width:100px;
+    height: auto;
+    cursor: pointer;
+    }
+

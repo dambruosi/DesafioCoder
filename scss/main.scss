@@ -1,0 +1,57 @@
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "contenido";
+@import "tipografia";
+@import "nav";
+@import "footer";
+@import "header";
+
+//variables de colores//
+
+$mainColor:darkmagenta;
+
+$fondoPro: #FA8BFF;
+
+$Violet:#b881ec;
+
+$letraWhite: white;
+
+//imagen de portada//
+
+$portadaFondo: #b881ec;
+
+
+.card{
+    background-color: #FA8BFF;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 26%, #ffffff 43%, #af87d6 66%);
+    border-radius: 15px; 
+}
+
+
+.card-1 {
+
+    background-color: #FA8BFF;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 26%, #ffffff 43%, #af87d6 66%);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    height:100%;
+    }
+
+
+
+//ANIMACIONES//
+
+.card:hover {
+    transform: scale(1.05, 1.08);
+    cursor: pointer;
+    }
+
+
+    a {
+        color: white;
+        text-decoration: none; }
+        a:hover {
+        color: cyan; 
+        }
